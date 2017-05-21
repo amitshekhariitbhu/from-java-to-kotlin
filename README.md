@@ -353,6 +353,49 @@ fun getScore(value: Int): Int {
 
 ---
 
+> Java
+
+```java
+public class Utils {
+
+	private Utils() { 
+      // This utility class is not publicly instantiable 
+    }
+    
+    public static int getScore(int value) {
+		return 2 * value;
+	}
+    
+}
+```
+
+> Kotlin
+
+```kotlin
+class Utils private constructor() {
+
+    companion object {
+    
+        fun getScore(value: Int): Int {
+            return 2 * value
+        }
+        
+    }
+}
+
+// other way is also there
+
+object Utils {
+
+    fun getScore(value: Int): Int {
+        return 2 * value
+    }
+
+}
+```
+
+---
+
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
 
