@@ -333,6 +333,26 @@ fun getScore(): Int {
 
 ---
 
+> Java
+
+```java
+int getScore(int value) {
+	// logic here
+	return 2 * value;
+}
+```
+
+> Kotlin
+
+```kotlin
+fun getScore(value: Int): Int {
+   // logic here
+   return 2 * value
+}
+```
+
+---
+
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
 
