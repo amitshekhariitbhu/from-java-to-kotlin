@@ -295,6 +295,24 @@ cars.forEach  { it.speed > 100 }
 
 ---
 
+> Java
+
+```java
+void doSomething() {
+	// logic here
+}
+```
+
+> Kotlin
+
+```kotlin
+fun doSomething() {
+   // logic here
+}
+```
+
+---
+
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
 
