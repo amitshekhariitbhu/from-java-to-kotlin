@@ -313,6 +313,26 @@ fun doSomething() {
 
 ---
 
+> Java
+
+```java
+int getScore() {
+	// logic here
+	return score;
+}
+```
+
+> Kotlin
+
+```kotlin
+fun getScore(): Int {
+   // logic here
+   return score
+}
+```
+
+---
+
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
 
