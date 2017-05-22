@@ -332,6 +332,10 @@ fun getScore(): Int {
    // logic here
    return score
 }
+
+// as a single-expression function
+
+fun getScore(): Int = score
 ```
 
 ---
@@ -352,6 +356,10 @@ fun getScore(value: Int): Int {
    // logic here
    return 2 * value
 }
+
+// as a single-expression function
+
+fun getScore(value: Int): Int = 2 * value
 ```
 
 ---
