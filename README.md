@@ -489,7 +489,7 @@ fun Int.triple() {
   return this * 3
 }
 
-int result = 3.triple()
+var result = 3.triple()
 ```
 
 ---
