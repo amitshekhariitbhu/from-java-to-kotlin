@@ -333,7 +333,7 @@ fun getScore(): Int {
 }
 ```
 
-and a as a single-expression function
+// as a single-expression function
 
 ```kotlin
 fun getScore(): Int = score
@@ -359,7 +359,7 @@ fun getScore(value: Int): Int {
 }
 ```
 
-and a as a single-expression function
+// as a single-expression function
 
 ```kotlin
 fun getScore(value: Int): Int = 2 * value
