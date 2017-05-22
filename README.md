@@ -333,6 +333,12 @@ fun getScore(): Int {
 }
 ```
 
+and a as a single-expression function
+
+```kotlin
+fun getScore(): Int = score
+```
+
 ---
 
 > Java
@@ -351,6 +357,12 @@ fun getScore(value: Int): Int {
    // logic here
    return 2 * value
 }
+```
+
+and a as a single-expression function
+
+```kotlin
+fun getScore(value: Int): Int = 2 * value
 ```
 
 ---
