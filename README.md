@@ -3,6 +3,7 @@
 </p>
 
 # From Java To Kotlin
+[![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
 [![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
 > From Java To Kotlin - Your Cheat Sheet For Java To Kotlin
 
@@ -505,6 +506,8 @@ var result = 3.triple()
 
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
+
+[Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
 
 
 ### License
