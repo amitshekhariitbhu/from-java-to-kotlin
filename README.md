@@ -107,7 +107,7 @@ val text = """
         |First Line
         |Second Line
         |Third Line
-""".trimMargin()
+        """.trimMargin()
 ```
 
 ---
@@ -131,14 +131,16 @@ val text = if (x > 5)
 > Java
 
 ```java
-if(object instanceof Car){}
+if(object instanceof Car){
+}
 Car car = (Car) object;
 ```
 
 > Kotlin
 
 ```kotlin
-if (object is Car) { }
+if (object is Car) {
+}
 var car = object as Car
 ```
 
@@ -148,7 +150,7 @@ var car = object as Car
 
 ```java
 if(object instanceof Car){
-	Car car = (Car) object;
+   Car car = (Car) object;
 }
 ```
 
@@ -156,7 +158,7 @@ if(object instanceof Car){
 
 ```kotlin
 if (object is Car) {
-var car = object // smart casting
+   var car = object // smart casting
 }
 ```
 
@@ -262,7 +264,7 @@ map.put(3, "Mindorks");
 ```kotlin
 val listOfNumber = listOf(1, 2, 3, 4)
 val keyValue = mapOf(1 to "Amit",
-                	 2 to "Ali",
+                     2 to "Ali",
                      3 to "Mindorks")
 ```
 
@@ -290,7 +292,7 @@ cars.forEach {
 }
 
 cars.filter  { it.speed > 100 }
-       .forEach { println(it.speed) }
+      .forEach { println(it.speed)}
 ```
 
 ---
@@ -299,7 +301,7 @@ cars.filter  { it.speed > 100 }
 
 ```java
 void doSomething() {
-	// logic here
+   // logic here
 }
 ```
 
@@ -317,8 +319,8 @@ fun doSomething() {
 
 ```java
 int getScore() {
-	// logic here
-	return score;
+   // logic here
+   return score;
 }
 ```
 
@@ -337,8 +339,8 @@ fun getScore(): Int {
 
 ```java
 int getScore(int value) {
-	// logic here
-	return 2 * value;
+    // logic here
+    return 2 * value;
 }
 ```
 
@@ -358,13 +360,13 @@ fun getScore(value: Int): Int {
 ```java
 public class Utils {
 
-	private Utils() { 
+    private Utils() { 
       // This utility class is not publicly instantiable 
     }
     
     public static int getScore(int value) {
-		return 2 * value;
-	}
+        return 2 * value;
+    }
     
 }
 ```
@@ -459,6 +461,35 @@ public class Developer {
 ```kotlin
 data class Developer(val name: String, val age: Int)
 
+```
+
+> Java
+
+```java
+public class Utils {
+
+    private Utils() { 
+      // This utility class is not publicly instantiable 
+    }
+    
+    public static int triple(int value) {
+        return 3 * value;
+    }
+    
+}
+
+int result = Utils.triple(3);
+
+```
+
+> Kotlin
+
+```kotlin
+fun Int.triple() {
+  return this * 3
+}
+
+int result = 3.triple()
 ```
 
 ---
