@@ -289,7 +289,7 @@ cars.forEach {
     println(it.speed)
 }
 
-cars.forEach  { it.speed > 100 }
+cars.filter  { it.speed > 100 }
        .forEach { println(it.speed) }
 ```
 
