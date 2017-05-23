@@ -275,15 +275,9 @@ val keyValue = mapOf(1 to "Amit",
 > Java
 
 ```java
-for (Car car : cars) {
-  System.out.println(car.speed);
-}
+cars.forEach(car -> System.out.println(car.speed));
 
-for (Car car : cars) {
-  if(cars.speed > 100) {
-    System.out.println(car.speed);
-  }
-}
+cars.stream().filter(car -> car.speed > 100).forEach(car -> System.out.println(car.speed));
 ```
 
 > Kotlin
