@@ -40,7 +40,6 @@ val name = "Amit Shekhar"
 - Java
 
 ```java
-final String name = null;
 String otherName;
 otherName = null;
 ```
@@ -48,7 +47,6 @@ otherName = null;
 - Kotlin
 
 ```kotlin
-val name : String? = null
 var otherName : String?
 otherName = null
 ```
