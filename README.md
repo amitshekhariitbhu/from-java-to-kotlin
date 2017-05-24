@@ -259,6 +259,13 @@ final Map<Integer, String> keyValue = new HashMap<Integer, String>();
 map.put(1, "Amit");
 map.put(2, "Ali");
 map.put(3, "Mindorks");
+
+// Java 9
+final List<Integer> listOfNumber = List.of(1, 2, 3, 4);
+
+final Map<Integer, String> keyValue = Map.of(1, "Amit",
+                                             2, "Ali",
+                                             3, "Mindorks");
 ```
 
 > Kotlin
