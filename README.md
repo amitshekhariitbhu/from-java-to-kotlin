@@ -229,7 +229,13 @@ var grade = when (score) {
 ```java
 for (int i = 1; i <= 10 ; i++) { }
 
+for (int i = 1; i < 10 ; i++) { }
+
+for (int i = 10; i >= 0 ; i--) { }
+
 for (int i = 1; i <= 10 ; i+=2) { }
+
+for (int i = 10; i >= 0 ; i-=2) { }
 
 for (String item : collection) { }
 
@@ -241,7 +247,13 @@ for (Map.Entry<String, String> entry: map.entrySet()) { }
 ```kotlin
 for (i in 1..10) { }
 
+for (i in 1 until 10) { }
+
+for (i in 10 downTo 0) { }
+
 for (i in 1..10 step 2) {}
+
+for (i in 10 donwTo 1 step 2) {}
 
 for (item in collection) {}
 
