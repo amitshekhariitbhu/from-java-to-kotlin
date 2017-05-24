@@ -64,7 +64,9 @@ if(text != null){
 -  Kotlin
 
 ```kotlin
-val length = text?.length
+text?.let {
+    val length = text.length
+}
 ```
 
 ---
