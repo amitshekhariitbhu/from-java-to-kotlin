@@ -283,7 +283,7 @@ cars.forEach(car -> System.out.println(car.speed));
 
 // Java 7 and below
 for (Car car : cars) {
-  if(cars.speed > 100) {
+  if(car.speed > 100) {
     System.out.println(car.speed);
   }
 }
