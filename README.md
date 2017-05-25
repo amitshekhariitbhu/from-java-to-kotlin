@@ -496,7 +496,7 @@ public class Developer {
 > Kotlin
 
 ```kotlin
-data class Developer(val name: String, val age: Int)
+data class Developer(var name: String, var age: Int)
 
 ```
 
