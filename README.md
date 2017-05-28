@@ -347,6 +347,24 @@ fun doSomething() {
 > Java
 
 ```java
+void doSomething(int... numbers) {
+   // logic here
+}
+```
+
+> Kotlin
+
+```kotlin
+fun doSomething(vararg numbers: Int) {
+   // logic here
+}
+```
+
+---
+
+> Java
+
+```java
 int getScore() {
    // logic here
    return score;
