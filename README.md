@@ -134,16 +134,16 @@ val text = if (x > 5)
 
 ```java
 if(object instanceof Car){
+   Car car = (Car) object;
 }
-Car car = (Car) object;
 ```
 
 > Kotlin
 
 ```kotlin
 if (object is Car) {
-}
-var car = object as Car
+   var car = object as Car
+}    
 ```
 
 ---
