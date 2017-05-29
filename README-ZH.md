@@ -1,7 +1,8 @@
 ![](http://upload-images.jianshu.io/upload_images/1110736-25da08f052608195.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
 # From Java To Kotlin
+[![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
+[![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
 
 ## 打印日志
  - Java
@@ -56,8 +57,8 @@ otherName = null
 -  Java
 
 ```java
-if(text != null){
-  int length = text.length();
+if (text != null) {
+    int length = text.length();
 }
 ```
 
@@ -130,7 +131,7 @@ val text = if (x > 5)
 - Java
 
 ```java
-if(object instanceof Car){
+if (object instanceof Car) {
 }
 Car car = (Car) object;
 ```
@@ -148,7 +149,7 @@ var car = object as Car
 - Java
 
 ```java
-if(object instanceof Car){
+if (object instanceof Car) {
    Car car = (Car) object;
 }
 ```
@@ -166,7 +167,7 @@ if (object is Car) {
 - Java
 
 ```java
-if(score >= 0 && score <= 300 ){}
+if (score >= 0 && score <= 300) { }
 ```
 
 - Kotlin
@@ -183,26 +184,26 @@ if (score in 0..300) { }
 int score = // some score;
 String grade;
 switch (score) {
- case 10:
- case 9:
-  grade = "Excellent";
-  break;
- case 8:
- case 7:
- case 6:
-  grade = "Good";
-  break;
- case 5:
- case 4:
-  grade = "Ok";
-  break;
- case 3:
- case 2:
- case 1:
-  grade = "Fail";
-  break;
- default:
-     grade = "Fail";    
+    case 10:
+    case 9:
+        grade = "Excellent";
+        break;
+    case 8:
+    case 7:
+    case 6:
+        grade = "Good";
+        break;
+    case 5:
+    case 4:
+        grade = "Ok";
+        break;
+    case 3:
+    case 2:
+    case 1:
+        grade = "Fail";
+        break;
+    default:
+        grade = "Fail";
 }
 ```
 
@@ -211,11 +212,11 @@ switch (score) {
 ```kotlin
 var score = // some score
 var grade = when (score) {
- 9, 10 -> "Excellent" 
- in 6..8 -> "Good"
- 4, 5 -> "Ok"
- in 1..3 -> "Fail"
- else -> "Fail"
+    9, 10 -> "Excellent" 
+    in 6..8 -> "Good"
+    4, 5 -> "Ok"
+    in 1..3 -> "Fail"
+    else -> "Fail"
 }
 ```
 
@@ -226,7 +227,13 @@ var grade = when (score) {
 ```java
 for (int i = 1; i <= 10 ; i++) { }
 
+for (int i = 1; i < 10 ; i++) { }
+
+for (int i = 10; i >= 0 ; i--) { }
+
 for (int i = 1; i <= 10 ; i+=2) { }
+
+for (int i = 10; i >= 0 ; i-=2) { }
 
 for (String item : collection) { }
 
@@ -238,11 +245,17 @@ for (Map.Entry<String, String> entry: map.entrySet()) { }
 ```kotlin
 for (i in 1..10) { }
 
-for (i in 1..10 step 2) {}
+for (i in 1 until 10) { }
 
-for (item in collection) {}
+for (i in 10 downTo 0) { }
 
-for ((key, value) in map) {}
+for (i in 1..10 step 2) { }
+
+for (i in 10 downTo 1 step 2) { }
+
+for (item in collection) { }
+
+for ((key, value) in map) { }
 ```
 
 ---
@@ -256,6 +269,13 @@ final Map<Integer, String> keyValue = new HashMap<Integer, String>();
 map.put(1, "Amit");
 map.put(2, "Ali");
 map.put(3, "Mindorks");
+
+// Java 9
+final List<Integer> listOfNumber = List.of(1, 2, 3, 4);
+
+final Map<Integer, String> keyValue = Map.of(1, "Amit",
+                                             2, "Ali",
+                                             3, "Mindorks");
 ```
 
 - Kotlin
@@ -272,26 +292,34 @@ val keyValue = mapOf(1 to "Amit",
 - Java
 
 ```java
+// Java 7 and below
 for (Car car : cars) {
-  System.out.println(car.speed);
+  System.out.println(car.speed);
 }
 
+// Java 8+
+cars.forEach(car -> System.out.println(car.speed));
+
+// Java 7 and below
 for (Car car : cars) {
-  if(cars.speed > 100) {
-    System.out.println(car.speed);
-  }
+  if (car.speed > 100) {
+    System.out.println(car.speed);
+  }
 }
+
+// Java 8+
+cars.stream().filter(car -> car.speed > 100).forEach(car -> System.out.println(car.speed));
 ```
 
 - Kotlin
 
 ```kotlin
 cars.forEach {
-    println(it.speed)
+    println(it.speed)
 }
 
-cars.filter  { it.speed > 100 }
-      .forEach { println(it.speed)}
+cars.filter { it.speed > 100 }
+      .forEach { println(it.speed)}
 ```
 
 ---
@@ -302,6 +330,10 @@ cars.filter  { it.speed > 100 }
 void doSomething() {
    // logic here
 }
+
+void doSomething(int... numbers) {
+   // logic here
+}
 ```
 
 - Kotlin
@@ -309,6 +341,10 @@ void doSomething() {
 ```kotlin
 fun doSomething() {
    // logic here
+}
+
+fun doSomething(vararg numbers: Int) {
+   // logic here
 }
 ```
 
@@ -330,6 +366,10 @@ fun getScore(): Int {
    // logic here
    return score
 }
+
+// as a single-expression function
+
+fun getScore(): Int = score
 ```
 
 ---
@@ -351,6 +391,10 @@ fun getScore(value: Int): Int {
    // logic here
    return 2 * value
 }
+
+// as a single-expression function
+
+fun getScore(value: Int): Int = 2 * value
 ```
 
 ---
@@ -493,6 +537,11 @@ var result = 3.triple()
 ```
 
 ---
+
+### Found this project useful :heart:
+* Support by clicking the :star: button on the upper right of this page. :v:
+
+[Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
 
 
 ### License

@@ -61,7 +61,7 @@ otherName = null
 > Java
 
 ```java
-if(text != null){
+if (text != null) {
   int length = text.length();
 }
 ```
@@ -133,7 +133,7 @@ val text = if (x > 5)
 > Java
 
 ```java
-if(object instanceof Car){
+if (object instanceof Car) {
 }
 Car car = (Car) object;
 ```
@@ -151,7 +151,7 @@ var car = object as Car
 > Java
 
 ```java
-if(object instanceof Car){
+if (object instanceof Car) {
    Car car = (Car) object;
 }
 ```
@@ -169,7 +169,7 @@ if (object is Car) {
 > Java
 
 ```java
-if(score >= 0 && score <= 300 ){}
+if (score >= 0 && score <= 300) { }
 ```
 
 > Kotlin
@@ -251,13 +251,13 @@ for (i in 1 until 10) { }
 
 for (i in 10 downTo 0) { }
 
-for (i in 1..10 step 2) {}
+for (i in 1..10 step 2) { }
 
-for (i in 10 downTo 1 step 2) {}
+for (i in 10 downTo 1 step 2) { }
 
-for (item in collection) {}
+for (item in collection) { }
 
-for ((key, value) in map) {}
+for ((key, value) in map) { }
 ```
 
 ---
@@ -304,7 +304,7 @@ cars.forEach(car -> System.out.println(car.speed));
 
 // Java 7 and below
 for (Car car : cars) {
-  if(car.speed > 100) {
+  if (car.speed > 100) {
     System.out.println(car.speed);
   }
 }
@@ -320,7 +320,7 @@ cars.forEach {
     println(it.speed)
 }
 
-cars.filter  { it.speed > 100 }
+cars.filter { it.speed > 100 }
       .forEach { println(it.speed)}
 ```
 
