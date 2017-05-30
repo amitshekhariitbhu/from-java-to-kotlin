@@ -541,12 +541,11 @@ var result = 3.triple()
 ### 你需要知道一些比较重要的事
 * [Learn Kotlin - lateinit vs lazy](https://mindorks.com/blog/learn-kotlin-lateinit-vs-lazy)
 * [Learn Kotlin - apply vs with](https://mindorks.com/blog/learn-kotlin-apply-vs-with)
-* [Learn Kotlin - 定义数据对象(实体)](https://mindorks.com/blog/learn-kotlin-data-class)
+* [Learn Kotlin - 定义实体对象](https://mindorks.com/blog/learn-kotlin-data-class)
 * [Learn Kotlin - 声明式解构(https://mindorks.com/blog/learn-kotlin-destructuring-declarations)
 * [Learn Kotlin - Sealed Classes](https://mindorks.com/blog/learn-kotlin-sealed-classes
 
 ### 如果你觉得这个项目对你有帮助 :heart:
-* Support by clicking the :star: button on the upper right of this page. :v:
 * 你可以通过点击 :star:表示支持  :v:
 
 [Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
