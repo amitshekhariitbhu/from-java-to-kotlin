@@ -118,6 +118,9 @@ val text = """
 
 ```java
 String text = x > 5 ? "x > 5" : "x <= 5";
+
+String message = null;
+log(message != null ? message : "");
 ```
 
 > Kotlin
@@ -126,6 +129,9 @@ String text = x > 5 ? "x > 5" : "x <= 5";
 val text = if (x > 5)
               "x > 5"
            else "x <= 5"
+	   
+val message: String? = null
+log(message ?: "")
 ```
 
 ---
