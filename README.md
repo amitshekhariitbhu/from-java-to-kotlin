@@ -529,6 +529,50 @@ data class Developer(var name: String, var age: Int)
 > Java
 
 ```java
+public class Developer implements Cloneable {
+
+    private String name;
+    private int age;
+
+    public Developer(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return (Developer)super.clone();
+    }
+}
+
+// cloning or copying 
+Developer dev = new Developer("Max", 30);
+    try {
+        Developer dev2 = (Developer) dev.clone();
+    } catch (CloneNotSupportedException e) {
+        // Handle Exception
+    }
+
+```
+
+> Kotlin
+
+```kotlin
+data class Developer(var name: String, var age: Int)
+
+// cloning or copying
+val dev = Developer("Max", 30)
+    val dev2 = dev.copy()
+    // in case you only want to copy selected properties
+    val dev2 = dev.copy(age = 25)
+
+```
+
+---
+
+> Java
+
+```java
 public class Utils {
 
     private Utils() { 
