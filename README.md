@@ -606,6 +606,7 @@ var result = 3.triple()
 * [Learn Kotlin - apply vs with](https://mindorks.com/blog/learn-kotlin-apply-vs-with)
 * [Learn Kotlin - Data Class](https://mindorks.com/blog/learn-kotlin-data-class)
 * [Learn Kotlin - Destructuring Declarations](https://mindorks.com/blog/learn-kotlin-destructuring-declarations)
+* [Learn Kotlin - Extension Functions](https://mindorks.com/blog/learn-kotlin-extension-functions)
 * [Learn Kotlin - Sealed Classes](https://mindorks.com/blog/learn-kotlin-sealed-classes)
 
 ### Found this project useful :heart:
