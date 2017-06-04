@@ -592,11 +592,16 @@ int result = Utils.triple(3);
 > Kotlin
 
 ```kotlin
-fun Int.triple(): Int {
-  return this * 3
+class Utils private constructor() {
+
+    companion object {
+        fun triple(value: Int): Int {
+            return 3 *value
+        }
+    }
 }
 
-var result = 3.triple()
+var result = Utils.triple(3)
 ```
 
 ---
