@@ -592,7 +592,7 @@ int result = Utils.triple(3);
 > Kotlin
 
 ```kotlin
-fun Int.triple(): Int {
+fun Utils.triple(): Int {
   return this * 3
 }
 
