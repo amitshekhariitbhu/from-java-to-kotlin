@@ -129,6 +129,28 @@ val text = if (x > 5)
 ```
 
 ---
+## 操作符
+- java
+
+```java
+final int andResult  = a & b;
+final int orResult   = a | b;
+final int xorResult  = a ^ b;
+final int rightShift = a >> 2;
+final int leftShift  = a << 2;
+```
+
+- Kotlin
+
+```kotlin
+val andResult  = a and b
+val orResult   = a or b
+val xorResult  = a xor b
+val rightShift = a shr 2
+val leftShift  = a shl 2
+```
+
+---
 ## 类型判断和转换 (声明式)
 - Java
 
