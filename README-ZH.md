@@ -68,6 +68,8 @@ if (text != null) {
 text?.let {
     val length = text.length
 }
+// or simple
+val length = text?.length
 ```
 
 ---
