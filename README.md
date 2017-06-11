@@ -434,7 +434,6 @@ fun getScore(value: Int): Int {
 }
 
 // as a single-expression function
-
 fun getScore(value: Int): Int = 2 * value
 ```
 
