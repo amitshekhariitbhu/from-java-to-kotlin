@@ -624,6 +624,21 @@ var result = 3.triple()
 
 ---
 
+> Java
+
+```java
+ImageView imageView;
+```
+
+> Kotlin
+
+```kotlin
+internal lateinit var imageView: ImageView
+```
+
+
+---
+
 ### Important things to know in Kotlin
 * [Learn Kotlin - lateinit vs lazy](https://mindorks.com/blog/learn-kotlin-lateinit-vs-lazy)
 * [Learn Kotlin - apply vs with](https://mindorks.com/blog/learn-kotlin-apply-vs-with)
