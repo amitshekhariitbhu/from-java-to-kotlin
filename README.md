@@ -627,13 +627,13 @@ var result = 3.triple()
 > Java
 
 ```java
-ImageView imageView;
+Person person;
 ```
 
 > Kotlin
 
 ```kotlin
-internal lateinit var imageView: ImageView
+internal lateinit var person: Person
 ```
 
 
