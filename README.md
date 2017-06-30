@@ -174,6 +174,9 @@ Car car = (Car) object;
 if (object is Car) {
 }
 var car = object as Car
+
+// if object is null
+var car = object as? Car // var car = object as Car?
 ```
 
 ---
@@ -191,6 +194,11 @@ if (object instanceof Car) {
 ```kotlin
 if (object is Car) {
    var car = object // smart casting
+}
+
+// if object is null
+if (object is Car?) {
+   var car = object // smart casting, car will be null
 }
 ```
 
@@ -352,6 +360,27 @@ cars.forEach {
 
 cars.filter { it.speed > 100 }
       .forEach { println(it.speed)}
+
+// kotlin 1.1+
+cars.stream().filter { it.speed > 100 }.forEach { println(it.speed)}
+cars.parallelStream().filter { it.speed > 100 }.forEach { println(it.speed)}
+```
+
+---
+
+> java
+
+```java
+String[] splits = "param=car".split("=");
+String param = splits[0];
+String value = splits[1];
+```
+
+
+> kotlin
+
+```kotlin
+val (param, value) = "param=car".split("=")
 ```
 
 ---
