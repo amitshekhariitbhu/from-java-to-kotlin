@@ -138,7 +138,7 @@ log(message ?: "")
 
 ---
 
-> java
+> Java
 
 ```java
 final int andResult  = a & b;
