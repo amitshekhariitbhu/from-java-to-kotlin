@@ -441,6 +441,10 @@ fun getScore(): Int {
 // as a single-expression function
 
 fun getScore(): Int = score
+
+// even simpler (type will be determined automatically)
+
+fun getScore() = score // return-type is Int
 ```
 
 ---
@@ -464,6 +468,10 @@ fun getScore(value: Int): Int {
 
 // as a single-expression function
 fun getScore(value: Int): Int = 2 * value
+
+// even simpler (type will be determined automatically)
+
+fun getScore(value: Int) = 2 * value // return-type is int
 ```
 
 ---
