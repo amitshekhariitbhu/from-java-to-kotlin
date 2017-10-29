@@ -68,7 +68,7 @@ if (text != null) {
 text?.let {
     val length = text.length
 }
-// or simple
+// or simply
 val length = text?.length
 ```
 
@@ -219,7 +219,7 @@ switch (score) {
         break;
     case 5:
     case 4:
-        grade = "Ok";
+        grade = "OK";
         break;
     case 3:
     case 2:
@@ -236,9 +236,9 @@ switch (score) {
 ```kotlin
 var score = // some score
 var grade = when (score) {
-    9, 10 -> "Excellent" 
+    9, 10 -> "Excellent"
     in 6..8 -> "Good"
-    4, 5 -> "Ok"
+    4, 5 -> "OK"
     in 1..3 -> "Fail"
     else -> "Fail"
 }
@@ -453,7 +453,7 @@ class Utils private constructor() {
     }
 }
 
-// other way is also there
+// another way
 
 object Utils {
 
@@ -592,4 +592,3 @@ var result = 3.triple()
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
-
