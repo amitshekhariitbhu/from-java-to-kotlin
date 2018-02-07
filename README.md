@@ -146,6 +146,7 @@ final int orResult   = a | b;
 final int xorResult  = a ^ b;
 final int rightShift = a >> 2;
 final int leftShift  = a << 2;
+final int unsignedRightShift = a >>> 2;
 ```
 
 > Kotlin
@@ -156,6 +157,7 @@ val orResult   = a or b
 val xorResult  = a xor b
 val rightShift = a shr 2
 val leftShift  = a shl 2
+val unsignedRightShift = a ushr 2;
 ```
 
 ---
