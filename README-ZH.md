@@ -184,7 +184,7 @@ if (object instanceof Car) {
 
 ```kotlin
 if (object is Car) {
-   var car = object // smart casting
+   var car = object // 聪明的转换
 }
 ```
 
@@ -532,7 +532,8 @@ public class Developer {
 data class Developer(val name: String, val age: Int)
 
 ```
-
+---
+## 原型扩展
 - Java
 
 ```java
