@@ -9,7 +9,7 @@
 
 [中文支持](https://github.com/MindorksOpenSource/from-java-to-kotlin/blob/master/README-ZH.md)
 ---
-
+## Print to Console
 > Java
 
 ```java
@@ -25,7 +25,7 @@ println("Amit Shekhar")
 ```
 
 ---
-
+## Constants and Variables
 > Java
 
 ```java
@@ -41,7 +41,7 @@ val name = "Amit Shekhar"
 ```
 
 ---
-
+## Assigning the null value
 > Java
 
 ```java
@@ -57,7 +57,7 @@ otherName = null
 ```
 
 ---
-
+## Verify if value is null
 > Java
 
 ```java
@@ -77,7 +77,7 @@ val length = text?.length
 ```
 
 ---
-
+## Concatenation of strings
 > Java
 
 ```java
@@ -95,7 +95,7 @@ val message = "My name is: $firstName $lastName"
 ```
 
 ---
-
+## New line in string
 > Java
 
 ```java
@@ -115,7 +115,7 @@ val text = """
 ```
 
 ---
-
+## Ternary Operations
 > Java
 
 ```java
@@ -137,7 +137,7 @@ log(message ?: "")
 ```
 
 ---
-
+## Logical Operators
 > Java
 
 ```java
@@ -161,7 +161,7 @@ val unsignedRightShift = a ushr 2
 ```
 
 ---
-
+## Check the type and casting
 > Java
 
 ```java
@@ -182,7 +182,7 @@ var car = object as? Car // var car = object as Car?
 ```
 
 ---
-
+## Check the type and casting (implicit)
 > Java
 
 ```java
@@ -205,7 +205,7 @@ if (object is Car?) {
 ```
 
 ---
-
+## Multiple conditions
 > Java
 
 ```java
@@ -219,7 +219,7 @@ if (score in 0..300) { }
 ```
 
 ---
-
+## Multiple Conditions (Switch case)
 > Java
 
 ```java
@@ -263,7 +263,7 @@ var grade = when (score) {
 ```
 
 ---
-
+## For-loops
 > Java
 
 ```java
@@ -301,7 +301,7 @@ for ((key, value) in map) { }
 ```
 
 ---
-
+## Collections
 > Java
 
 ```java
@@ -330,7 +330,7 @@ val keyValue = mapOf(1 to "Amit",
 ```
 
 ---
-
+## for each
 > Java
 
 ```java
@@ -369,7 +369,7 @@ cars.parallelStream().filter { it.speed > 100 }.forEach { println(it.speed)}
 ```
 
 ---
-
+## Splitting arrays
 > java
 
 ```java
@@ -386,7 +386,7 @@ val (param, value) = "param=car".split("=")
 ```
 
 ---
-
+## Defining methods
 > Java
 
 ```java
@@ -404,7 +404,7 @@ fun doSomething() {
 ```
 
 ---
-
+## Variable number of arguments
 > Java
 
 ```java
@@ -422,7 +422,7 @@ fun doSomething(vararg numbers: Int) {
 ```
 
 ---
-
+## Defining methods with return
 > Java
 
 ```java
@@ -450,7 +450,7 @@ fun getScore() = score // return-type is Int
 ```
 
 ---
-
+## Returning result of an operation
 > Java
 
 ```java
@@ -477,7 +477,7 @@ fun getScore(value: Int) = 2 * value // return-type is int
 ```
 
 ---
-
+## Constructors
 > Java
 
 ```java
@@ -520,7 +520,7 @@ object Utils {
 ```
 
 ---
-
+## Getters and Setters
 > Java
 
 ```java
@@ -587,7 +587,7 @@ data class Developer(var name: String, var age: Int)
 ```
 
 ---
-
+## Cloning or copying
 > Java
 
 ```java
@@ -631,7 +631,7 @@ val dev2 = dev.copy(age = 25)
 ```
 
 ---
-
+## Class methods
 > Java
 
 ```java
@@ -662,7 +662,7 @@ var result = 3.triple()
 ```
 
 ---
-
+## Defining uninitialized objects
 > Java
 
 ```java
@@ -674,6 +674,8 @@ Person person;
 ```kotlin
 internal lateinit var person: Person
 ```
+---
+## enum
 > Java
 
 ```java
