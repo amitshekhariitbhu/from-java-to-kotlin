@@ -715,6 +715,72 @@ enum class Direction constructor(direction: Int) {
 ```
 ---
 
+
+## Sorting List
+> Java
+
+```java
+List<Profile> profiles = loadProfiles(context);
+Collections.sort(profiles, new Comparator<Profile>() {
+    @Override
+    public int compare(Profile profile1, Profile profile2) {
+        if (profile1.getAge() > profile2.getAge()) return 1;
+        if (profile1.getAge() < profile2.getAge()) return -1;
+        return 0;
+    }
+});
+
+```
+
+> Kotlin
+
+```kotlin
+val profile = loadProfiles(context)
+profile.sortedWith(Comparator({ profile1, profile2 ->
+    if (profile1.age > profile2.age) return@Comparator 1
+    if (profile1.age < profile2.age) return@Comparator -1
+    return@Comparator 0
+}))
+```
+---
+
+## Anonymous Class
+> Java
+
+```java
+ AsyncTask<Void, Void, Profile> task = new AsyncTask<Void, Void, Profile>() {
+    @Override
+    protected Profile doInBackground(Void... voids) {
+        // fetch profile from API or DB
+        return null;
+    }
+
+    @Override
+    protected void onPreExecute() {
+        super.onPreExecute();
+        // do something
+    }
+};
+
+```
+
+> Kotlin
+
+```kotlin
+val task = object : AsyncTask<Void, Void, Profile>() {
+    override fun doInBackground(vararg voids: Void): Profile? {
+        // fetch profile from API or DB
+        return null
+    }
+
+    override fun onPreExecute() {
+        super.onPreExecute()
+        // do something
+    }
+}
+```
+---
+
 ### Important things to know in Kotlin
 * [Learn Kotlin - lateinit vs lazy](https://mindorks.com/blog/learn-kotlin-lateinit-vs-lazy)
 * [Learn Kotlin - apply vs with](https://mindorks.com/blog/learn-kotlin-apply-vs-with)
