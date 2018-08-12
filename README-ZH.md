@@ -604,12 +604,12 @@ enum class Direction constructor(direction: Int) {
 ---
 
 ### 你需要知道一些比较重要的事
-* [Learn Kotlin - lateinit vs lazy](https://mindorks.com/blog/learn-kotlin-lateinit-vs-lazy)
-* [Learn Kotlin - apply vs with](https://mindorks.com/blog/learn-kotlin-apply-vs-with)
-* [Learn Kotlin - Data Class](https://mindorks.com/blog/learn-kotlin-data-class)
-* [Learn Kotlin - Destructuring Declarations](https://mindorks.com/blog/learn-kotlin-destructuring-declarations)
-* [Learn Kotlin - Extension Functions](https://mindorks.com/blog/learn-kotlin-extension-functions)
-* [Learn Kotlin - Sealed Classes](https://mindorks.com/blog/learn-kotlin-sealed-classes)
+* [Learn Kotlin - lateinit vs lazy](https://blog.mindorks.com/learn-kotlin-lateinit-vs-lazy)
+* [Learn Kotlin - apply vs with](https://blog.mindorks.com/learn-kotlin-apply-vs-with)
+* [Learn Kotlin - Data Class](https://blog.mindorks.com/learn-kotlin-data-class)
+* [Learn Kotlin - Destructuring Declarations](https://blog.mindorks.com/learn-kotlin-destructuring-declarations)
+* [Learn Kotlin - Extension Functions](https://blog.mindorks.com/learn-kotlin-extension-functions)
+* [Learn Kotlin - Sealed Classes](https://blog.mindorks.com/learn-kotlin-sealed-classes)
 
 ### 如果你觉得这个项目对你有帮助 :heart:
 * 你可以通过点击 :star:表示支持  :v:
