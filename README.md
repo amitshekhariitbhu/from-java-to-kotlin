@@ -5,6 +5,8 @@
 # From Java To Kotlin
 [![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
 [![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
+[![Mindorks Android Store](https://img.shields.io/badge/Mindorks%20Android%20Store-From%20Java%20To%20Kotlin-blue.svg?style=flat)](https://mindorks.com/android/store)
+
 > From Java To Kotlin - Your Cheat Sheet For Java To Kotlin
 
 [中文支持](https://github.com/MindorksOpenSource/from-java-to-kotlin/blob/master/README-ZH.md)
