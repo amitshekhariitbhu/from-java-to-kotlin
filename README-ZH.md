@@ -277,7 +277,7 @@ for (i in 10 downTo 0) { }
 
 for (i in 1..10 step 2) { }
 
-for (i in 10 downTo 1 step 2) { }
+for (i in 10 downTo 0 step 2) { }
 
 for (item in collection) { }
 
