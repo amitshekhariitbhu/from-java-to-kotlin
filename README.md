@@ -139,7 +139,7 @@ log(message ?: "")
 ```
 
 ---
-## Logical Operators
+## Bitwise Operators
 > Java
 
 ```java
