@@ -353,6 +353,7 @@ for (Car car : cars) {
 
 // Java 8+
 cars.stream().filter(car -> car.speed > 100).forEach(car -> System.out.println(car.speed));
+cars.parallelStream().filter(car -> car.speed > 100).forEach(car -> System.out.println(car.speed));
 ```
 
 > Kotlin
