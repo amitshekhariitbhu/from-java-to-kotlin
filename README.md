@@ -91,9 +91,9 @@ String message = "My name is: " + firstName + " " + lastName;
 > Kotlin
 
 ```kotlin
-val firstName = "Amit"
-val lastName = "Shekhar"
-val message = "My name is: $firstName $lastName"
+var firstName = "Amit"
+var lastName = "Shekhar"
+var message = "My name is: $firstName $lastName"
 ```
 
 ---
