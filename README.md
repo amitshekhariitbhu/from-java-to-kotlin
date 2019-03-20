@@ -791,6 +791,7 @@ val task = object : AsyncTask<Void, Void, Profile>() {
 * [Learn Kotlin - Destructuring Declarations](https://blog.mindorks.com/learn-kotlin-destructuring-declarations)
 * [Learn Kotlin - Extension Functions](https://blog.mindorks.com/learn-kotlin-extension-functions)
 * [Learn Kotlin - Sealed Classes](https://blog.mindorks.com/learn-kotlin-sealed-classes)
+* [Understanding Higher-Order Functions and Lambdas in Kotlin](https://blog.mindorks.com/understanding-higher-order-functions-and-lambdas-in-kotlin)
 
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
