@@ -783,6 +783,29 @@ val task = object : AsyncTask<Void, Void, Profile>() {
 }
 ```
 ---
+## Initialization block
+> Java
+
+```java
+public class User {
+    {  //Initialization block
+        System.out.println("Init block");
+    }
+}
+
+```
+
+> Kotlin
+
+```kotlin
+   class User {
+        init { // Initialization block
+            println("Init block")
+        }
+    }
+```
+
+---
 
 ### Important things to know in Kotlin
 * [Learn Kotlin - lateinit vs lazy](https://blog.mindorks.com/learn-kotlin-lateinit-vs-lazy)
