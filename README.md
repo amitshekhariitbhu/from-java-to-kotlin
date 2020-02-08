@@ -117,6 +117,40 @@ val text = """
 ```
 
 ---
+
+## Substring
+> Java
+
+```java
+String str = "Java to Kotlin Guide";
+String substr = "";
+
+//print java
+substr = str.substring(0, 4);
+System.out.println("subtring = " + substr);
+
+//print kotlin
+substr = str.substring(8, 14);
+System.out.println("substring = " + substr);
+```
+
+> Kotlin
+
+```kotlin
+var str = "Java to Kotlin Guide"
+var substr = ""
+
+//print java
+substr = str.substring(0..4)
+println("subtring = " + substr)
+
+//print kotlin
+substr = str.substring(8..14)
+println("substring = " + substr)
+```
+
+---
+
 ## Ternary Operations
 > Java
 
