@@ -855,6 +855,7 @@ public class User {
 * [Understanding Higher-Order Functions and Lambdas in Kotlin](https://blog.mindorks.com/understanding-higher-order-functions-and-lambdas-in-kotlin)
 * [Understanding inline, noinline, and crossinline in Kotlin](https://blog.mindorks.com/understanding-inline-noinline-and-crossinline-in-kotlin)
 * [Mastering Kotlin Coroutines In Android - Step By Step Guide](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
+* [Using Scoped Functions in Kotlin - let, run, with, also, apply](https://blog.mindorks.com/using-scoped-functions-in-kotlin-let-run-with-also-apply)
 
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
