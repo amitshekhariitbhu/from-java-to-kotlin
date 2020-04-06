@@ -846,6 +846,7 @@ public class User {
 ---
 
 ### Important things to know in Kotlin
+* [What is the equivalent of Java static methods in Kotlin?](https://blog.mindorks.com/what-is-the-equivalent-of-java-static-methods-in-kotlin)
 * [Learn Kotlin - lateinit vs lazy](https://blog.mindorks.com/learn-kotlin-lateinit-vs-lazy)
 * [Learn Kotlin - apply vs with](https://blog.mindorks.com/learn-kotlin-apply-vs-with)
 * [Learn Kotlin - Data Class](https://blog.mindorks.com/learn-kotlin-data-class)
