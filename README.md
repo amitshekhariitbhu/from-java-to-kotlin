@@ -131,11 +131,11 @@ String substr = "";
 
 //print java
 substr = str.substring(0, 4);
-System.out.println("subtring = " + substr);
+System.out.println("subtring $substr");
 
 //print kotlin
 substr = str.substring(8, 14);
-System.out.println("substring = " + substr);
+System.out.println("substring $substr");
 ```
 
 > Kotlin
@@ -168,9 +168,11 @@ log(message != null ? message : "");
 > Kotlin
 
 ```kotlin
-val text = if (x > 5)
-              "x > 5"
-           else "x <= 5"
+val text = if (x > 5) {
+    "x > 5"
+} else {
+    "x <= 5"
+}
 
 val message: String? = null
 log(message ?: "")
