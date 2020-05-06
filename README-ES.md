@@ -587,20 +587,12 @@ public enum Direction {
     }
 ```
 - Kotlin
-
 ```kotlin
-enum class Direction constructor(direction: Int) {
+enum class Direction(val direction: Int) {
     NORTH(1),
     SOUTH(2),
     WEST(3),
     EAST(4);
-
-    var direction: Int = 0
-        private set
-
-    init {
-        this.direction = direction
-    }
 }
 ```
 
