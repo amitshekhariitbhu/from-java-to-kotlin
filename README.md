@@ -131,11 +131,11 @@ String substr = "";
 
 //print java
 substr = str.substring(0, 4);
-System.out.println("subtring $substr");
+System.out.println("substring = " + substr);
 
 //print kotlin
 substr = str.substring(8, 14);
-System.out.println("substring $substr");
+System.out.println("substring = " + substr);
 ```
 
 > Kotlin
@@ -145,12 +145,12 @@ var str = "Java to Kotlin Guide"
 var substr = ""
 
 //print java
-substr = str.substring(0..4)
-println("subtring = " + substr)
+substr = str.substring(0..3) //
+println("substring $substr")
 
 //print kotlin
-substr = str.substring(8..14)
-println("substring = " + substr)
+substr = str.substring(8..13)
+println("substring $substr")
 ```
 
 ---
