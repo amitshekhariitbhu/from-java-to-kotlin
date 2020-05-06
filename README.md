@@ -145,11 +145,11 @@ var str = "Java to Kotlin Guide"
 var substr = ""
 
 //print java
-substr = str.substring(0..4)
+substr = str.substring(0..3) //
 println("substring $substr")
 
 //print kotlin
-substr = str.substring(8..14)
+substr = str.substring(8..13)
 println("substring $substr")
 ```
 
