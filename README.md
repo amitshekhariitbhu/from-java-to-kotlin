@@ -259,7 +259,6 @@ var grade = when (score) {
 	9, 10 -> "Excellent"
 	in 6..8 -> "Good"
 	4, 5 -> "OK"
-	in 1..3 -> "Fail"
 	else -> "Fail"
 }
 ```
