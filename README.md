@@ -853,6 +853,7 @@ public class User {
 * [Understanding inline, noinline, and crossinline in Kotlin](https://blog.mindorks.com/understanding-inline-noinline-and-crossinline-in-kotlin)
 * [Mastering Kotlin Coroutines In Android - Step By Step Guide](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
 * [Using Scoped Functions in Kotlin - let, run, with, also, apply](https://blog.mindorks.com/using-scoped-functions-in-kotlin-let-run-with-also-apply)
+* [What are Reified Types in Kotlin?](https://blog.mindorks.com/what-are-reified-types-in-kotlin)
 
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
