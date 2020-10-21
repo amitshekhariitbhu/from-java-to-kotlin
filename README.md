@@ -83,6 +83,29 @@ val length = text?.length
 ```
 
 ---
+## Verify if value is NotNull  OR NotEmpty
+> Java
+```java
+String sampleString = "Shekhar";
+if (!sampleString.isEmpty()) {
+    myTextView.setText(sampleString);
+}
+if(sampleString!=null && !sampleString.isEmpty()){
+    myTextView.setText(sampleString); 
+}
+```
+> Kotlin
+
+```kotlin
+var sampleString ="Shekhar"
+if(sampleString.isNotEmpty()){  //the feature of kotlin extension function
+    myTextView.text=sampleString
+}
+if(!sampleString.isNullOrEmpty()){
+   myTextView.text=sampleString 
+}
+```
+---
 ## Concatenation of strings
 > Java
 
