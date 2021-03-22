@@ -208,16 +208,16 @@ val unsignedRightShift = a ushr 2
 
 ```java
 if (object instanceof Car) {
+	Car car = (Car) object;
 }
-Car car = (Car) object;
 ```
 
 > Kotlin
 
 ```kotlin
 if (object is Car) {
-}
 var car = object as Car
+}
 
 // if object is null
 var car = object as? Car // var car = object as Car?
@@ -299,7 +299,6 @@ var grade = when (score) {
 	9, 10 -> "Excellent"
 	in 6..8 -> "Good"
 	4, 5 -> "OK"
-	in 1..3 -> "Fail"
 	else -> "Fail"
 }
 ```
