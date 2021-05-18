@@ -736,6 +736,62 @@ int result = Utils.triple(3);
 
 ```
 
+---
+## Generics
+> Java
+
+```java
+
+// Example #1
+interface SomeInterface<T> {
+    void doSomething(T data);
+}
+
+class SomeClass implements SomeInterface<String> {
+    @Override
+    public void doSomething(String data) {
+        // some logic
+    }
+}
+
+// Example #2
+interface SomeInterface<T extends Collection<?>> {
+    void doSomething(T data);
+}
+
+class SomeClass implements SomeInterface<List<String>> {
+
+    @Override
+    public void doSomething(List<String> data) {
+        // some logic
+    }
+}
+
+```
+
+```kotlin
+interface SomeInterface<T> {
+    fun doSomething(data: T)
+}
+
+class SomeClass: SomeInterface<String> {
+    override fun doSomething(data: String) {
+        // some logic
+    }
+}
+
+interface SomeInterface<T: Collection<*>> {
+    fun doSomething(data: T)
+}
+
+class SomeClass: SomeInterface<List<String>> {
+    override fun doSomething(data: List<String>) {
+        // some logic
+    }
+}
+```
+
+
 > Kotlin
 
 ```kotlin
