@@ -464,6 +464,30 @@ fun doSomething() {
 }
 ```
 
+### Default values for method parameters
+> Java
+
+```java
+double calculateCost(int quantity, double pricePerItem) {
+    return pricePerItem * quantity;
+}
+
+double calculateCost(int quantity) {
+    // default price is 20.5
+    return 20.5 * quantity;
+}
+```
+
+> Kotlin
+
+```kotlin
+fun calculateCost(quantity: Int, pricePerItem: Double = 20.5) = quantity * pricePerItem
+
+calculateCost(10, 25.0) // 250
+calculateCost(10) // 205
+
+```
+
 ---
 ## Variable number of arguments
 > Java
