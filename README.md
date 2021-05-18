@@ -168,11 +168,7 @@ log(message != null ? message : "");
 > Kotlin
 
 ```kotlin
-val text = if (x > 5) {
-    "x > 5"
-} else {
-    "x <= 5"
-}
+val text = if (x > 5) "x > 5" else "x <= 5"
 
 val message: String? = null
 log(message ?: "")
