@@ -168,7 +168,7 @@ var str = "Java to Kotlin Guide"
 var substr = ""
 
 //print java
-substr = str.substring(0..3) //
+substr = str.substring(0..3)
 println("substring $substr")
 
 //print kotlin
