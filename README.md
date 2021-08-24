@@ -361,6 +361,35 @@ for ((key, value) in map) { }
 ```
 
 ---
+## Try & Catch
+> Java
+
+```java
+try {
+  //  Block of code to try
+}
+catch(Exception e) {
+  //  Block of code to handle errors
+} 
+finally {
+    // optional finally block
+```
+
+> Kotlin
+
+```kotlin
+try {
+    // Block of code to try
+} 
+catch (e: SomeException) {
+    //  Block of code to handle errors
+} 
+finally {
+    // optional finally block
+}
+```
+
+---
 ## Collections
 > Java
 
