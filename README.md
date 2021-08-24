@@ -381,7 +381,7 @@ finally {
 try {
     // Block of code to try
 } 
-catch (e: SomeException) {
+catch (e: Exception) {
     //  Block of code to handle errors
 } 
 finally {
