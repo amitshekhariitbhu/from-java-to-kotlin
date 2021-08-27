@@ -736,6 +736,18 @@ int result = Utils.triple(3);
 
 ```
 
+> Kotlin
+
+```kotlin
+fun Int.triple(): Int {
+  return this * 3
+}
+
+var result = 3.triple()
+```
+
+
+
 ---
 ## Generics
 > Java
@@ -769,6 +781,8 @@ class SomeClass implements SomeInterface<List<String>> {
 
 ```
 
+>  Kotlin
+
 ```kotlin
 interface SomeInterface<T> {
     fun doSomething(data: T)
@@ -789,17 +803,6 @@ class SomeClass: SomeInterface<List<String>> {
         // some logic
     }
 }
-```
-
-
-> Kotlin
-
-```kotlin
-fun Int.triple(): Int {
-  return this * 3
-}
-
-var result = 3.triple()
 ```
 
 ---
