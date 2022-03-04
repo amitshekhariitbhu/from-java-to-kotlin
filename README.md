@@ -234,12 +234,13 @@ if (object instanceof Car) {
 > Kotlin
 
 ```kotlin
-if (object is Car) {
+// object is also keyword in kotlin so we can use ` backtick symbol to use keyword as name
+if (`object` is Car) {
 var car = object as Car
 }
 
 // if object is null
-var car = object as? Car // var car = object as Car?
+var car = `object` as? Car // var car = `object` as Car?
 ```
 
 ---
@@ -255,13 +256,13 @@ if (object instanceof Car) {
 > Kotlin
 
 ```kotlin
-if (object is Car) {
-   var car = object // smart casting
+if (`object` is Car) {
+   var car = `object` // smart casting
 }
 
 // if object is null
-if (object is Car?) {
-   var car = object // smart casting, car will be null
+if (`object` is Car?) {
+   var car = `object` // smart casting, car will be null
 }
 ```
 
