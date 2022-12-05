@@ -75,6 +75,38 @@ text?.let {
 val length = text?.length
 ```
 
+--- 
+
+## Optional Nullsafe
+
+> java
+
+```java
+Optional<String> text = Optional.of("test");
+```
+
+> Kotlin
+
+```kotlin
+var text = "test"!!
+```
+
+---
+
+## Optional Nullable 
+
+> java
+
+```java
+Optional<String> text = Optional.ofNullable(null);
+```
+
+> Kotlin
+
+```kotlin
+var text : String? = null
+```
+
 ---
 ## Verify if value is NotNull  OR NotEmpty
 > Java
