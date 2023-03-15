@@ -946,12 +946,12 @@ public class User {
 
 ```java
     static MyFragment newInstance(String arg1, String arg2) {
-    MyFragment fragment = new MyFragment();
-    Bundle arguments = new Bundle();
-    arguments.putString(ARG_1_KEY, arg1);
-    arguments.putString(ARG_2_KEY, arg2);
-    fragment.setArguments(arguments);
-    return fragment;
+	MyFragment fragment = new MyFragment();
+	Bundle arguments = new Bundle();
+	arguments.putString(ARG_1_KEY, arg1);
+	arguments.putString(ARG_2_KEY, arg2);
+	fragment.setArguments(arguments);
+	return fragment;
 }
 ```
 
