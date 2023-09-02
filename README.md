@@ -17,7 +17,7 @@ You can connect with me on:
 - [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
 - [GitHub](https://github.com/amitshekhariitbhu)
 
-## **Get Mentorship: [amitshekhar.me](https://amitshekhar.me)**
+## **Get High Paying Tech Job: [amitshekhar.me](https://amitshekhar.me)**
 
 ## Print to Console
 > Java
