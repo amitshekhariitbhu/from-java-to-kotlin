@@ -8,7 +8,7 @@
 
 ## About me
 
-Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
+Hi, I am Amit Shekhar, Co-Founder @ [Outcome School](https://outcomeschool.com) • IIT 2010-14 • I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
 
 You can connect with me on:
 
@@ -17,7 +17,7 @@ You can connect with me on:
 - [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
 - [GitHub](https://github.com/amitshekhariitbhu)
 
-## **Get High Paying Tech Job: [amitshekhar.me](https://amitshekhar.me)**
+## Join **Outcome School** and get high paying tech job: [Outcome School](https://outcomeschool.com)
 
 ## Print to Console
 > Java
@@ -231,7 +231,7 @@ val unsignedRightShift = a ushr 2
 
 ```java
 if (object instanceof Car) {
-	Car car = (Car) object;
+  Car car = (Car) object;
 }
 ```
 
@@ -291,26 +291,26 @@ if (score in 0..300) { }
 int score = // some score;
 String grade;
 switch (score) {
-	case 10:
-	case 9:
-		grade = "Excellent";
-		break;
-	case 8:
-	case 7:
-	case 6:
-		grade = "Good";
-		break;
-	case 5:
-	case 4:
-		grade = "OK";
-		break;
-	case 3:
-	case 2:
-	case 1:
-		grade = "Fail";
-		break;
-	default:
-	    grade = "Fail";				
+  case 10:
+  case 9:
+    grade = "Excellent";
+    break;
+  case 8:
+  case 7:
+  case 6:
+    grade = "Good";
+    break;
+  case 5:
+  case 4:
+    grade = "OK";
+    break;
+  case 3:
+  case 2:
+  case 1:
+    grade = "Fail";
+    break;
+  default:
+      grade = "Fail";       
 }
 ```
 
@@ -319,10 +319,10 @@ switch (score) {
 ```kotlin
 var score = // some score
 var grade = when (score) {
-	9, 10 -> "Excellent"
-	in 6..8 -> "Good"
-	4, 5 -> "OK"
-	else -> "Fail"
+  9, 10 -> "Excellent"
+  in 6..8 -> "Good"
+  4, 5 -> "OK"
+  else -> "Fail"
 }
 ```
 
@@ -944,41 +944,41 @@ public class User {
 
 ### Important things to know in Kotlin
 
-- [Mastering Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines) - Mastering Kotlin Coroutines
-- [Dispatchers in Kotlin Coroutines](https://amitshekhar.me/blog/dispatchers-in-kotlin-coroutines) - Dispatchers in Kotlin Coroutines
-- [coroutineScope vs supervisorScope](https://amitshekhar.me/blog/coroutinescope-vs-supervisorscope) - coroutineScope vs supervisorScope
-- [What is Flow API in Kotlin?](https://amitshekhar.me/blog/flow-api-in-kotlin) - What is Flow API in Kotlin?
-- [Long-running tasks in parallel with Kotlin Flow](https://amitshekhar.me/blog/long-running-tasks-in-parallel-with-kotlin-flow) - Long-running tasks in parallel with Kotlin Flow
-- [Retry Operator in Kotlin Flow](https://amitshekhar.me/blog/retry-operator-in-kotlin-flow) - Retry Operator in Kotlin Flow
-- [Callback to Coroutines in Kotlin](https://amitshekhar.me/blog/callback-to-coroutines-in-kotlin) - Callback to Coroutines in Kotlin
-- [Retrofit with Kotlin Flow](https://amitshekhar.me/blog/retrofit-with-kotlin-flow) - Retrofit with Kotlin Flow
-- [Room Database with Kotlin Flow](https://amitshekhar.me/blog/room-database-with-kotlin-flow) - Room Database with Kotlin Flow
-- [Remove duplicates from an array](https://amitshekhar.me/blog/remove-duplicates-from-an-array-in-kotlin) - Remove duplicates from an array in Kotlin
-- [JvmStatic Annotation in Kotlin](https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin) - JvmStatic Annotation in Kotlin
-- [JvmOverloads Annotation in Kotlin](https://amitshekhar.me/blog/jvmoverloads-annotation-in-kotlin) - JvmOverloads Annotation in Kotlin
-- [JvmField Annotation in Kotlin](https://amitshekhar.me/blog/jvmfield-annotation-in-kotlin) - JvmField Annotation in Kotlin
-- [inline function in Kotlin](https://amitshekhar.me/blog/inline-function-in-kotlin) - inline function in Kotlin
-- [noinline in Kotlin](https://amitshekhar.me/blog/noinline-in-kotlin) - noinline in Kotlin
-- [crossinline in Kotlin](https://amitshekhar.me/blog/crossinline-in-kotlin) - crossinline in Kotlin
-- [lateinit vs lazy in Kotlin](https://amitshekhar.me/blog/lateinit-vs-lazy-in-kotlin) - lateinit vs lazy in Kotlin
-- [init block in Kotlin](https://amitshekhar.me/blog/init-block-in-kotlin) - init block in Kotlin
-- [Retrofit with Kotlin Coroutines](https://amitshekhar.me/blog/retrofit-with-kotlin-coroutines) - Retrofit with Kotlin Coroutines
-- [Advantage of using const in Kotlin](https://amitshekhar.me/blog/const-in-kotlin) - Advantage of using const in Kotlin
-- [AssociateBy - List to Map in Kotlin](https://amitshekhar.me/blog/associateby-list-to-map-in-kotlin) - Kotlin Collection Functions - associateBy that converts a list into a map
-- [partition - filtering function in Kotlin](https://amitshekhar.me/blog/partition-filtering-function-in-kotlin) - partition - filtering function in Kotlin
-- [Infix notation in Kotlin](https://amitshekhar.me/blog/infix-notation-in-kotlin) - Infix notation in Kotlin
-- [Open keyword in Kotlin](https://amitshekhar.me/blog/open-keyword-in-kotlin) - Open keyword in Kotlin
-- [Companion object in Kotlin](https://amitshekhar.me/blog/companion-object-in-kotlin) - Companion object in Kotlin
-- [How does the Kotlin Multiplatform work?](https://amitshekhar.me/blog/how-does-the-kotlin-multiplatform-work) - How does the Kotlin Multiplatform work?
+- [Mastering Kotlin Coroutines](https://outcomeschool.com/blog/kotlin-coroutines) - Mastering Kotlin Coroutines
+- [Dispatchers in Kotlin Coroutines](https://outcomeschool.com/blog/dispatchers-in-kotlin-coroutines) - Dispatchers in Kotlin Coroutines
+- [coroutineScope vs supervisorScope](https://outcomeschool.com/blog/coroutinescope-vs-supervisorscope) - coroutineScope vs supervisorScope
+- [What is Flow API in Kotlin?](https://outcomeschool.com/blog/flow-api-in-kotlin) - What is Flow API in Kotlin?
+- [Long-running tasks in parallel with Kotlin Flow](https://outcomeschool.com/blog/long-running-tasks-in-parallel-with-kotlin-flow) - Long-running tasks in parallel with Kotlin Flow
+- [Retry Operator in Kotlin Flow](https://outcomeschool.com/blog/retry-operator-in-kotlin-flow) - Retry Operator in Kotlin Flow
+- [Callback to Coroutines in Kotlin](https://outcomeschool.com/blog/callback-to-coroutines-in-kotlin) - Callback to Coroutines in Kotlin
+- [Retrofit with Kotlin Flow](https://outcomeschool.com/blog/retrofit-with-kotlin-flow) - Retrofit with Kotlin Flow
+- [Room Database with Kotlin Flow](https://outcomeschool.com/blog/room-database-with-kotlin-flow) - Room Database with Kotlin Flow
+- [Remove duplicates from an array](https://outcomeschool.com/blog/remove-duplicates-from-an-array-in-kotlin) - Remove duplicates from an array in Kotlin
+- [JvmStatic Annotation in Kotlin](https://outcomeschool.com/blog/jvmstatic-annotation-in-kotlin) - JvmStatic Annotation in Kotlin
+- [JvmOverloads Annotation in Kotlin](https://outcomeschool.com/blog/jvmoverloads-annotation-in-kotlin) - JvmOverloads Annotation in Kotlin
+- [JvmField Annotation in Kotlin](https://outcomeschool.com/blog/jvmfield-annotation-in-kotlin) - JvmField Annotation in Kotlin
+- [inline function in Kotlin](https://outcomeschool.com/blog/inline-function-in-kotlin) - inline function in Kotlin
+- [noinline in Kotlin](https://outcomeschool.com/blog/noinline-in-kotlin) - noinline in Kotlin
+- [crossinline in Kotlin](https://outcomeschool.com/blog/crossinline-in-kotlin) - crossinline in Kotlin
+- [lateinit vs lazy in Kotlin](https://outcomeschool.com/blog/lateinit-vs-lazy-in-kotlin) - lateinit vs lazy in Kotlin
+- [init block in Kotlin](https://outcomeschool.com/blog/init-block-in-kotlin) - init block in Kotlin
+- [Retrofit with Kotlin Coroutines](https://outcomeschool.com/blog/retrofit-with-kotlin-coroutines) - Retrofit with Kotlin Coroutines
+- [Advantage of using const in Kotlin](https://outcomeschool.com/blog/const-in-kotlin) - Advantage of using const in Kotlin
+- [AssociateBy - List to Map in Kotlin](https://outcomeschool.com/blog/associateby-list-to-map-in-kotlin) - Kotlin Collection Functions - associateBy that converts a list into a map
+- [partition - filtering function in Kotlin](https://outcomeschool.com/blog/partition-filtering-function-in-kotlin) - partition - filtering function in Kotlin
+- [Infix notation in Kotlin](https://outcomeschool.com/blog/infix-notation-in-kotlin) - Infix notation in Kotlin
+- [Open keyword in Kotlin](https://outcomeschool.com/blog/open-keyword-in-kotlin) - Open keyword in Kotlin
+- [Companion object in Kotlin](https://outcomeschool.com/blog/companion-object-in-kotlin) - Companion object in Kotlin
+- [How does the Kotlin Multiplatform work?](https://outcomeschool.com/blog/how-does-the-kotlin-multiplatform-work) - How does the Kotlin Multiplatform work?
 
-## **Get Mentorship: [amitshekhar.me](https://amitshekhar.me)**
+## Join **Outcome School** and get high paying tech job: [Outcome School](https://outcomeschool.com)
 
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
 
 ### License
 ```
-   Copyright (C) 2022 Amit Shekhar
+   Copyright (C) 2024 Amit Shekhar
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
