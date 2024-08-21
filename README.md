@@ -971,6 +971,7 @@ public class User {
 - [Open keyword in Kotlin](https://outcomeschool.com/blog/open-keyword-in-kotlin) - Open keyword in Kotlin
 - [Companion object in Kotlin](https://outcomeschool.com/blog/companion-object-in-kotlin) - Companion object in Kotlin
 - [Extension function in Kotlin](https://outcomeschool.com/blog/extension-function-in-kotlin) - Extension function in Kotlin
+- [data class in Kotlin](https://outcomeschool.com/blog/data-class-in-kotlin) - data class in Kotlin
 - [How does the Kotlin Multiplatform work?](https://outcomeschool.com/blog/how-does-the-kotlin-multiplatform-work) - How does the Kotlin Multiplatform work?
 
 ## Join **Outcome School** and get high paying tech job: [Outcome School](https://outcomeschool.com)
