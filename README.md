@@ -720,27 +720,6 @@ val dev2 = dev.copy(age = 25)
 ```
 
 ---
-## Class methods
-> Java
-
-```java
-public class Utils {
-
-    private Utils() {
-      // This utility class is not publicly instantiable
-    }
-
-    public static int triple(int value) {
-        return 3 * value;
-    }
-
-}
-
-int result = Utils.triple(3);
-
-```
-
----
 ## Generics
 > Java
 
@@ -773,6 +752,8 @@ class SomeClass implements SomeInterface<List<String>> {
 
 ```
 
+> Kotlin
+
 ```kotlin
 interface SomeInterface<T> {
     fun doSomething(data: T)
@@ -795,6 +776,26 @@ class SomeClass: SomeInterface<List<String>> {
 }
 ```
 
+---
+## Extension function
+> Java
+
+```java
+public class Utils {
+
+    private Utils() {
+      // This utility class is not publicly instantiable
+    }
+
+    public static int triple(int value) {
+        return 3 * value;
+    }
+
+}
+
+int result = Utils.triple(3);
+
+```
 
 > Kotlin
 
