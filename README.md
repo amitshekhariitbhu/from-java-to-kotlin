@@ -942,6 +942,37 @@ public class User {
 ```
 
 ---
+## Instantiate a Fragment through static method
+> Java
+
+```java
+    static MyFragment newInstance(String arg1, String arg2) {
+	MyFragment fragment = new MyFragment();
+	Bundle arguments = new Bundle();
+	arguments.putString(ARG_1_KEY, arg1);
+	arguments.putString(ARG_2_KEY, arg2);
+	fragment.setArguments(arguments);
+	return fragment;
+}
+```
+
+> Kotlin
+
+```kotlin
+    // use of extension function
+    companion object {
+        fun newInstance(arg1: String, arg2: String): MyFragment {
+            return MyFragment().apply {
+            arguments = Bundle().apply {
+                putString(ARG_1_KEY, arg1)
+                putString(ARG_2_KEY, arg2)
+            }
+            }
+        }
+    }
+```
+
+---
 
 ### Important things to know in Kotlin
 
