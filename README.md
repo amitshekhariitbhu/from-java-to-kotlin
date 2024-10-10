@@ -943,6 +943,33 @@ public class User {
 
 ---
 
+## Accessing Class members
+> Java
+
+```java
+Student student = new Student();
+student.setName("Smith");
+student.setCourse("Geology");
+student.setYear(2015);
+student.setCode(200);
+student.register();
+
+```
+
+> Kotlin
+
+```kotlin
+Student().apply {
+	name = "Smith"
+	course = "Geology"
+	year = 2015
+	code = 200
+	register()
+}
+```
+
+---
+
 ### Important things to know in Kotlin
 
 - [Mastering Kotlin Coroutines](https://outcomeschool.com/blog/kotlin-coroutines) - Mastering Kotlin Coroutines
