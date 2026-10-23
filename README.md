@@ -261,12 +261,12 @@ if (object instanceof Car) {
 > Kotlin
 
 ```kotlin
-if (object is Car) {
-var car = object as Car
+if (vehicle is Car) {
+var car = vehicle as Car
 }
 
-// if object is null
-var car = object as? Car // var car = object as Car?
+// if vehicle is null or not a Car
+var car = vehicle as? Car
 ```
 
 ---
@@ -282,13 +282,13 @@ if (object instanceof Car) {
 > Kotlin
 
 ```kotlin
-if (object is Car) {
-   var car = object // smart casting
+if (vehicle is Car) {
+   var car = vehicle // smart casting
 }
 
-// if object is null
-if (object is Car?) {
-   var car = object // smart casting, car will be null
+// if vehicle is null or a Car
+if (vehicle is Car?) {
+   var car = vehicle // smart casting, car may be null
 }
 ```
 
